@@ -33,6 +33,7 @@ public class Point3D extends Point2D{
         return xyz;
     }
 
+    @Override
     public String toString() {
         return "x: " + this.getX() 
                 + "\nY: " + this.getY()
